@@ -11,12 +11,55 @@
         color: red;
       }
       body{
-        backgroung-color:dodgerblue;
+        background-color:dodgerblue;
+      }
+      .purple-text{
+        color:rgb(0,0,255);
+      }
+      .purple-text{
+        color:hsla(240,0,0,.5);
+      }
+      .important{
+        font-weight: bold;
+      }
+      #lead-paragraph{
+        font-weight: bold;
+      }
+      .important:hover{
+        background-color: #0000FF;
+      }
+      a[href="https://imagecomics.com/"] {
+        background-color: orange;
+        padding : 1rem;
+      }
+      a[href="http://storm.wnba.com/"] {
+        background-color: blue;
+      }
+      h1{
+        color: red;
+        border-style:solid;
+        border-width: 2px;
+        border-color:red;
+      }
+      p.important{
+        width: 75%;
+      }
+      img{
+        border-style: dashed;
+        border:color : orange;
+        border-width :3px;
+        width : 5%;
       }
     </style>
   </head>
   <body>
     <h1>Welcome</h1>
-    <p>Everything is fine</p>
+    <p class="purple-text">Everything is fine</p>
+    <p class="important purple-text">No really,the world is filled with despair</p>
+    <p id="lead-paragraph">The world is a happy and sensible place</p>
+    <a href="http://storm.wnba.com/">National WNBA Champions, Seattle Storm</a>
+    <a href="https://imagecomics.com/">Check out some awesome independent comics</a>
+    <img src="flower5.jpeg">
+    <i>
   </body>
 </html>
